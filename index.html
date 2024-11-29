@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Chess Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Math Chess Game</h1>
+
+    <div id="currentPlayer">Player 1's Turn</div>
+
+    <div id="scoreboard">
+        <div id="player1" class="player">Player 1: <span id="player1Score">0</span> points</div>
+        <div id="player2" class="player">Player 2: <span id="player2Score">0</span> points</div>
+    </div>
+
+    <div id="question"></div>
+
+    <div id="betContainer">
+        <h3>Place your bet:</h3>
+        <div class="chessboard" id="chessboard"></div>
+    </div>
+
+    <input type="number" id="answerInput" placeholder="Your answer" />
+    <button id="submitAnswer">Submit Answer</button>
+
+    <script src="game.js"></script>
+</body>
+</html>
